@@ -33,13 +33,14 @@ console.log("Exercise Two");
 //
 // Write your code here 👇
 
-// let kata2 = function () {
-//     let index = 0;
-//     while (index < 15) {
-//         console.log(index);
-//     }
-// };
-// kata2();
+let kata2 = function () {
+    let index = 0;
+    while (index < 15) {
+        console.log(index);
+        index++;
+    }
+};
+kata2();
 
 // ----------------------------------------------------------------------------------------------
 console.log("Exercise Three");
