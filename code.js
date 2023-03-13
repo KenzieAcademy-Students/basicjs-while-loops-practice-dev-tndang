@@ -52,7 +52,11 @@ console.log("Exercise Three");
 // Write your code here 👇
 
 let kata3 = function () {
-
+    let index = 1;
+    while (index <= 20) {
+        console.log(index);
+        index++;
+    }
 }
 kata3();
 
