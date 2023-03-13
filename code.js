@@ -15,7 +15,7 @@ console.log("Exercise One"); // Do not modify the lines like this before each ex
 
 let kata1 = function () {
     let index = 0;
-    while (index < 2) {
+    while (index < 10) {
         console.log(index);
         index += 1;
     }
@@ -33,13 +33,14 @@ console.log("Exercise Two");
 //
 // Write your code here 👇
 
-// let kata2 = function () {
-//     let index = 0;
-//     while (index < 15) {
-//         console.log(index);
-//     }
-// };
-// kata2();
+let kata2 = function () {
+    let index = 0;
+    while (index < 15) {
+        console.log(index);
+        index++;
+    }
+};
+kata2();
 
 // ----------------------------------------------------------------------------------------------
 console.log("Exercise Three");
@@ -51,7 +52,11 @@ console.log("Exercise Three");
 // Write your code here 👇
 
 let kata3 = function () {
-
+    let index = 1;
+    while (index <= 20) {
+        console.log(index);
+        index++;
+    }
 }
 kata3();
 
@@ -65,7 +70,11 @@ console.log("Exercise Four");
 // Write your code here 👇
 
 let kata4 = function () {
-
+    let index = 2;
+    while (index <= 20) {
+        console.log(index);
+        index += 2;
+    }
 }
 kata4();
 
@@ -79,7 +88,11 @@ console.log("Exercise Five");
 // Write your code here 👇
 
 let kata5 = function () {
-
+    let index = 1;
+    while (index <= 19) {
+        console.log(index);
+        index += 2;
+    }
 }
 kata5();
 
@@ -93,7 +106,11 @@ console.log("Exercise Six");
 // Write your code here 👇
 
 let kata6 = function () {
-
+    let index = 5;
+    while (index <= 100) {
+        console.log(index);
+        index += 5;
+    }
 }
 kata6();
 
@@ -107,7 +124,11 @@ console.log("Exercise Seven");
 // Write your code here 👇
 
 let kata7 = function () {
-
+    let index = 20;
+    while (index > 0) {
+        console.log(index);
+        index--;
+    }
 }
 kata7();
 
@@ -121,7 +142,11 @@ console.log("Exercise Eight");
 // Write your code here 👇
 
 let kata8 = function () {
-
+    let index = 20;
+    while (index > 0) {
+        console.log(index);
+        index -= 2;
+    }
 }
 kata8();
 
@@ -135,7 +160,11 @@ console.log("Exercise Nine");
 // Write your code here 👇
 
 let kata9 = function () {
-
+    let index = 19;
+    while (index > 0) {
+        console.log(index);
+        index -=2;
+    }
 }
 kata9();
 
@@ -149,7 +178,11 @@ console.log("Exercise Ten");
 // Write your code here 👇
 
 let kata10 = function () {
-
+    let index = 100;
+    while (index > 0) {
+        console.log(index)
+        index -= 5;
+    }
 }
 kata10();
 
