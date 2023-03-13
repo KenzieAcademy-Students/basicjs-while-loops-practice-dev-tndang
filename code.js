@@ -73,7 +73,7 @@ let kata4 = function () {
     let index = 2;
     while (index <= 20) {
         console.log(index);
-        index +=2;
+        index += 2;
     }
 }
 kata4();
@@ -91,7 +91,7 @@ let kata5 = function () {
     let index = 1;
     while (index <= 19) {
         console.log(index);
-        index +=2;
+        index += 2;
     }
 }
 kata5();
@@ -106,7 +106,11 @@ console.log("Exercise Six");
 // Write your code here 👇
 
 let kata6 = function () {
-
+    let index = 5;
+    while (index <= 100) {
+        console.log(index);
+        index += 5;
+    }
 }
 kata6();
 
@@ -120,7 +124,11 @@ console.log("Exercise Seven");
 // Write your code here 👇
 
 let kata7 = function () {
-
+    let index = 20;
+    while (index > 0) {
+        console.log(index);
+        index--;
+    }
 }
 kata7();
 
