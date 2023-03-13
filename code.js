@@ -15,7 +15,7 @@ console.log("Exercise One"); // Do not modify the lines like this before each ex
 
 let kata1 = function () {
     let index = 0;
-    while (index < 2) {
+    while (index < 10) {
         console.log(index);
         index += 1;
     }
